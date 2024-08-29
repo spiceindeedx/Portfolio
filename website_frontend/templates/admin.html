@@ -1,0 +1,91 @@
+<html>
+    <head>
+      <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/admin.css') }}"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <title>Admin page</title> 
+        <meta http-equiv="refresh" content="1">
+    </head>
+    <body>
+      <div class="order">
+        <div class="no_order">
+      {% if completedOrder == [] %}
+        <p> No finished orders at the moment</p>
+        </div>
+       {% else %}
+        <table>
+             <tr>
+               <th>Finished Orders</th>
+              </tr>
+          {% for order in completedOrder %}
+              <tr>
+                  <td>{{ order }}</td>
+              </tr>
+          {% endfor %}
+        </table>
+      {% endif %}
+
+        <br>
+
+
+
+        
+        <table style="width:100%" class="order_table">
+            <tr>
+             
+              <th>Oven Response</th>
+              <th>Countdown </th>
+              <th>Time</th>
+              <th>Temp</th> 
+              
+              <th>Order </th>
+              
+            </tr>
+            <tr>
+              <td> {{oven_data["ovenResponse"]}}  </td>
+              <td> {{oven_data["countdown"]}} </td>
+              <td> {{oven_data["time"]}} </td>
+              <td> {{oven_data["temp"]}}</td>
+              
+              <td>{{oven_data["orderid"]}} </td>
+              <td>{{oven_data["order"]}} </td>
+              
+            </tr>
+            
+          </table>
+
+          <br>
+
+        {% if orderque == [] %}
+               <p> No orders in que</p>
+            {% else %}
+          <table>
+               <tr>
+                 <th>Order Que</th>
+                </tr>
+            {% for order in orderque %}
+                <tr>
+                    <td>{{ order }}</td>
+                </tr>
+            {% endfor %}
+          </table>
+        {% endif %}
+
+
+
+
+
+
+        </div>
+        <nav class="nav">
+          <a class="nav__link__2" href="http://127.0.0.1:5000/">Go back</a>
+          <br>
+          <a class="nav__link_2" href="http://127.0.0.1:5000/order">Order page</a>
+        </nav>
+        <div class="background">
+        </div>
+    </body>
+</html>

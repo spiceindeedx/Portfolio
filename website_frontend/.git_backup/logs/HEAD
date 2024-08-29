@@ -1,0 +1,45 @@
+0000000000000000000000000000000000000000 78f7bb1ae8d77ce399ea282120c799b7f8b44321 unknown <spiceindeedx@DESKTOP-J3NUC22.(none)> 1665733691 +0200	clone: from https://git.fhict.nl/I515393/pizza-shop-ata-group-14-5.git
+78f7bb1ae8d77ce399ea282120c799b7f8b44321 e1159b68ff126a7efe06748d24fb1feb0ddb1153 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1665992209 +0200	commit: Artem
+e1159b68ff126a7efe06748d24fb1feb0ddb1153 0800f91edc7b5060c7b019e7dc1f327d5fb6c6ad Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1665992308 +0200	pull --tags origin main: Merge made by the 'ort' strategy.
+0800f91edc7b5060c7b019e7dc1f327d5fb6c6ad aad232387b820738200d7850af1a447c52754269 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1665993671 +0200	commit: Artem 1.1
+aad232387b820738200d7850af1a447c52754269 c2db5d34cbaf63d79c5858cce5aabe07129fdccb Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1665993675 +0200	commit: Artem 1.1
+c2db5d34cbaf63d79c5858cce5aabe07129fdccb ece95e3ca06320396520ea8d52b1e0e43ed75490 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1665993703 +0200	pull --tags origin main: Merge made by the 'ort' strategy.
+ece95e3ca06320396520ea8d52b1e0e43ed75490 4b3294d7bb4c54e3203c84da9850a4f24ea72e5e Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1665994238 +0200	commit: Artem 1.2
+4b3294d7bb4c54e3203c84da9850a4f24ea72e5e 5ae0f11e997ac1fa2bc669f9d64f084b48a8d62f Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1665994253 +0200	pull --tags origin main: Merge made by the 'ort' strategy.
+5ae0f11e997ac1fa2bc669f9d64f084b48a8d62f 0512971ead302132d38fe656e86510240ceb01ac Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1665994853 +0200	commit: Artem 1.2
+0512971ead302132d38fe656e86510240ceb01ac 7b14fb78713d590efbab4cc7b452e1174d9922b1 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1665997639 +0200	commit: Artem 1.3
+7b14fb78713d590efbab4cc7b452e1174d9922b1 829e84ec5b3c7884b9046475c0893f0ae21b06f4 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1665997642 +0200	pull --tags origin main: Merge made by the 'ort' strategy.
+829e84ec5b3c7884b9046475c0893f0ae21b06f4 5020d4b1e55d922eada530f35fd6233793bb47cc Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1665998516 +0200	commit: Artem 1.5
+5020d4b1e55d922eada530f35fd6233793bb47cc 3100893c6a0377044afc904645dc7efc0a4f90e4 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1665999625 +0200	commit: Artem. 1.6
+3100893c6a0377044afc904645dc7efc0a4f90e4 79dc592ed6f1bda3c98b8142ec47d3ca829da04c Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1665999628 +0200	pull --tags origin main: Merge made by the 'ort' strategy.
+79dc592ed6f1bda3c98b8142ec47d3ca829da04c b27df276b0513608166175cd7abf803c688f873b Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666002660 +0200	commit: Artem2.0
+b27df276b0513608166175cd7abf803c688f873b fd63615c991cbebe3575f05b91d332fc744f0b97 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666007241 +0200	commit: Artem2.1
+fd63615c991cbebe3575f05b91d332fc744f0b97 073e88a3803a085ba032f4bb28fdf6c4fcc758e2 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666007244 +0200	pull --tags origin main: Merge made by the 'ort' strategy.
+073e88a3803a085ba032f4bb28fdf6c4fcc758e2 969604f39fa9a1ee8800046375935ae457de6ed0 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666090417 +0200	commit: Artem3.0
+969604f39fa9a1ee8800046375935ae457de6ed0 b0f6bbb7475d49e86c6ca2c34b139a62dc4aa05b Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666090420 +0200	pull --tags origin main: Merge made by the 'ort' strategy.
+b0f6bbb7475d49e86c6ca2c34b139a62dc4aa05b dd995e2f2e6b4285b499ba74d1643408afa8037b Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666092854 +0200	commit: Artem 3.1
+dd995e2f2e6b4285b499ba74d1643408afa8037b a5d99f122dfce0bcb1e88048a78b869432c4fd8d Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666092857 +0200	pull --tags origin main: Merge made by the 'ort' strategy.
+a5d99f122dfce0bcb1e88048a78b869432c4fd8d b30587a17e4a96a63b6f43c562b51ff070ad901d Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666174376 +0200	commit: Artem5.0
+b30587a17e4a96a63b6f43c562b51ff070ad901d 6629b35438ddc7cfb02c8f9f880085d021ee06a8 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666174378 +0200	pull --tags origin main: Merge made by the 'ort' strategy.
+6629b35438ddc7cfb02c8f9f880085d021ee06a8 2946fe6c29ad1fefab7e7b4446103510d00c24b1 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666176368 +0200	commit: Artem5.1(Home page)
+2946fe6c29ad1fefab7e7b4446103510d00c24b1 6b9387081f410e724106e8555dc6a05af21195e2 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666176371 +0200	pull --tags origin main: Merge made by the 'ort' strategy.
+6b9387081f410e724106e8555dc6a05af21195e2 3c10688effed4d787228f4515ffa10e67dbbeceb Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666179329 +0200	commit: Artem5.1
+3c10688effed4d787228f4515ffa10e67dbbeceb 8a0adb31094c1ad884ba79945a38428f1afbfe47 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666180845 +0200	commit: Artem5.2
+8a0adb31094c1ad884ba79945a38428f1afbfe47 94dcaf6860a647953779ed57cacc20a11267b890 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666258025 +0200	commit: Artem6.0
+94dcaf6860a647953779ed57cacc20a11267b890 c9b15401c757966e4b94fd46143c5b28bbb71f3a Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666258154 +0200	commit (merge): Merge branch 'main' of https://git.fhict.nl/I515393/pizza-shop-ata-group-14-5
+c9b15401c757966e4b94fd46143c5b28bbb71f3a 72396ed66ac7791d0c150a77b5014960e43cf417 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666262255 +0200	pull: Fast-forward
+72396ed66ac7791d0c150a77b5014960e43cf417 682b94c061401a73e39b14832504b275d073c6ae Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666264488 +0200	commit: Artem???
+682b94c061401a73e39b14832504b275d073c6ae eef84b9f7563dd17c8ea41788f81a0f56d0dc168 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666268095 +0200	commit: Artem7.0
+eef84b9f7563dd17c8ea41788f81a0f56d0dc168 68ed9040d11dc1b100904bcfd74b188cbf1b6804 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666268100 +0200	pull --tags origin main: Merge made by the 'ort' strategy.
+68ed9040d11dc1b100904bcfd74b188cbf1b6804 e44e8ada1aafd4d466a84f8ade7770c486af1533 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666269620 +0200	commit: Artem7.1
+e44e8ada1aafd4d466a84f8ade7770c486af1533 37cc66aace794e5959bd43c2a4ad75004a5145ce Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666269622 +0200	pull --tags origin main: Merge made by the 'ort' strategy.
+37cc66aace794e5959bd43c2a4ad75004a5145ce 9e4a3e0bfd05658d6b6e346224265b28159a52ae Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666270005 +0200	pull --tags origin main: Fast-forward
+9e4a3e0bfd05658d6b6e346224265b28159a52ae 0bd287fa2ee9574efb84f3b0303a58e7dfa5d456 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666347520 +0200	pull --tags origin main: Fast-forward
+0bd287fa2ee9574efb84f3b0303a58e7dfa5d456 308aae6bde1e83d43c4e6d2ce00c902af73648c3 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666348835 +0200	pull: Fast-forward
+308aae6bde1e83d43c4e6d2ce00c902af73648c3 d1a57ffc911562af3bb2632ed6d4acde8c0b2e7a Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666682998 +0200	pull: Fast-forward
+d1a57ffc911562af3bb2632ed6d4acde8c0b2e7a 31536ff212a72fd0bb896a55325c9c0cc557366e Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666689951 +0200	commit: Artem 9.0
+31536ff212a72fd0bb896a55325c9c0cc557366e b4abcfd72ad85daea9298712679fcf72eeb93f39 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666714829 +0200	commit: Artem10.0
+b4abcfd72ad85daea9298712679fcf72eeb93f39 8a1838d861bc78382fa1cfc0d507404ecf211120 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666949567 +0200	commit: Artem10.1
+8a1838d861bc78382fa1cfc0d507404ecf211120 9d3188ddf1a8aca87bed069bbc11ffad1ca4cd13 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666950567 +0200	commit: Artem 10.2
+9d3188ddf1a8aca87bed069bbc11ffad1ca4cd13 28ba3d3c953824d6d6eb165f366cd62e6a190105 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1666950984 +0200	commit: Artem10.3
+28ba3d3c953824d6d6eb165f366cd62e6a190105 72ee61820ac89c1284e3571760c98e62cac85452 Tiutenko,Artem A <a.tiutenko@student.fontys.nl> 1667470226 +0100	pull: Fast-forward

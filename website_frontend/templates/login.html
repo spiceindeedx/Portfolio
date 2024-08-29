@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <title>ATA login page</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">Admin page sign-in</div>
+        </div>
+    </header>
+    <div class="login">
+        <form action="/admin_login" method="post">
+            <div class="login_text">
+                <label>username:</label><br>
+                <input type="text" name="sent_username" class="inputbox"><br><br> 
+                <label>password:</label><br>
+                <input type="password" name="sent_password" class="inputbox"><br><br><br>
+                <input type="submit" value="login" class="button"></input>
+            </div>
+        </form>
+    </div>
+    <nav class="nav">
+        <a class="nav__link" href="http://127.0.0.1:5000/">Go back</a>
+    </nav>
+    <div class="background">
+    </div>
+</body>
+
+
+
+
+body{
+	margin: 0;  
+    padding: 0;  
+    background-color:#BE6030;  
+    font-family: 'Arial';  
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 30px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.login{
+    text-align: center;
+}
+
+label{  
+    color: #08ffd1;  
+    font-size: 20px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+    font-size: 20px;
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+    font-size: 20px;
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: black;  
+    margin-left: 70px;
+    font-size: 20px;
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 20px;  
+}  
+a{  
+
+    background-color: 463C3C;  
+} 
+
+
+         
+#navlist {
+    background-color: 2E4857;
+    position: absolute;
+    width: 100%;
+}
+      
+.navlist2{
+    background-color:#7C3410;
+    position: absolute;
+    width: 100%;
+}
+
+#navlist a {
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+    
+.navlist-right{
+    float:right;
+}
+#navlist a:hover {
+    background-color: #ddd;
+    color: black;
+}
+h2{
+   margin-top: 20px;
+   margin-left: 550px;
+   color: white;
+   border: solid;
+   left: 30px;
+   width: 200px;
+   font-size: 50px;
+ }
+ #ec {
+    font-size: 50px;
+ }
+
+ .navlink{
+    background-color: #7C3410;
+ }
+
+
+<html>
+<head>
+	<title>
+		appartement LAN
+	</title>
+    <link rel="stylesheet" href="/static/style/style.css">
+	<style>
+	
+	</style>
+</head>
+<body>
+    <body>   
+        <div id="navlist">
+            <div class="navlist2">
+            <a class="navlink" href="#">Energy consumption</a>
+            <a class="navlink" class="navlink" href="#">Agenda</a>
+            <a class="navlink" href="#">Cleaning schedule</a>
+            <a class="navlink" href="#">Tenants info</a>
+            </div>
+    <br><br> <br> <br> <br> <br> <br> 
+
+    <h1>Welcome to JASL Network</h1>
+    </div>    
+    </body>    
+
+</body>
+
+</html>

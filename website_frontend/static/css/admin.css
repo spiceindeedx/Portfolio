@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10px;
+	color: #333333;
+	line-height: 1.6;
+}
+
+.background{
+    display: auto;
+    flex-direction: auto;
+    justify-content: auto;
+	width: 100%;
+	height: auto;
+	background: url('admin_background.jpg') center no-repeat;
+	background-size: auto;
+}
+
+/* ADMIN INFORMATION */
+
+.order{
+    position: absolute;
+    top: 225px;
+    right: 943px;
+    left: 50px;
+    z-index: 1000;
+    margin: auto 0;
+    font-size: 24px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.order_table{
+    font-size: 24px;
+	font-weight: 300;
+	color: #fff;
+    text-shadow: 3px 3px 3px #333333;
+	
+}
+
+p{
+    font-size: 20px;
+	font-weight: 100;
+	color: #fff;
+    text-shadow: 1px 1px 1px #333333;
+}
+
+table{
+	border: 1px solid;
+	background-color: bisque;
+	opacity: 0.7;
+}
+
+th{
+    display: auto;
+	margin: auto;
+}
+
+td{
+    display: auto;
+	margin: auto;  
+}
+
+tr{
+	margin: 0 100px;
+	height: 20px ;
+	width: 20px;
+}
+
+/* LINKS */
+
+.nav{
+	font-size: 20px;
+	text-transform: uppercase;
+	position: absolute;
+}
+
+.nav__link__2{
+    position: absolute;
+    top: 800px;
+    right: 0;
+    left: 50px;
+    z-index: 1000;
+    margin: auto 0;
+    height: 33px;
+    width: 88px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-color: #3a4849;
+    color: #333333;
+    text-decoration: none;
+	transition: color .3s linear;   
+}
+
+.nav__link__2:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background-color: #f5e25e;
+	opacity: 0;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	transition: opacity .3s linear;
+}
+
+.nav__link__2:hover{
+	color: #f5e25e;
+}
+
+.nav__link__2:hover:after{
+	opacity: 1;
+}
+
+.nav__link_2{
+    position: absolute;
+    top: 800px;
+    right: 0;
+    left: 210px;
+    z-index: 1000;
+    margin: auto 0;
+    height: 33px;
+    width: 123px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-color: #3a4849;
+    color: #333333;
+    text-decoration: none;
+	transition: color .3s linear;   
+}
+
+.nav__link_2:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background-color: #f5e25e;
+	opacity: 0;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	transition: opacity .3s linear;
+}
+
+.nav__link_2:hover{
+	color: #f5e25e;
+}
+
+.nav__link_2:hover:after{
+	opacity: 1;
+}
