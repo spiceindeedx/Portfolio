@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+</head>
+<body>
+    <h1>Recent Logs</h1>
+    <a href="{{ url_for('filepage') }}">Go to File Page</a>
+    <table border="1">
+        <tr>
+            <th>Datetime</th>
+            <th>Severity</th>
+            <th>Message</th>
+        </tr>
+        {% for log in logs %}
+            <tr>
+                <td>{{ log[0] }}</td>
+                <td>{{ log[1] }}</td>
+                <td>{{ log[2] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

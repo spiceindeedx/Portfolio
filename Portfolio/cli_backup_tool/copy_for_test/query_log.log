@@ -1,0 +1,33 @@
+2023-11-24 15:49:01,387 - INFO - 2023-11-24 15:49:01.386985 - INFO - Backup job started
+2023-11-24 15:49:01,388 - INFO - 2023-11-24 15:49:01.388249 - INFO - /Users/spiceindeedx/Desktop/test_db/.DS_Store - NO CHANGE, SKIPPING
+2023-11-24 15:49:01,388 - INFO - 2023-11-24 15:49:01.388704 - INFO - /Users/spiceindeedx/Desktop/test_db/test_document.docx - NO CHANGE, SKIPPING
+2023-11-24 15:49:01,389 - INFO - 2023-11-24 15:49:01.389085 - INFO - /Users/spiceindeedx/Desktop/test_db/test_text2 - NO CHANGE, SKIPPING
+2023-11-24 15:49:01,389 - INFO - 2023-11-24 15:49:01.389544 - INFO - /Users/spiceindeedx/Desktop/test_db/test_new_file - NO CHANGE, SKIPPING
+2023-11-24 15:49:01,390 - INFO - 2023-11-24 15:49:01.390036 - INFO - /Users/spiceindeedx/Desktop/test_db/test_document_2.docx - NO CHANGE, SKIPPING
+2023-11-24 15:49:01,390 - INFO - 2023-11-24 15:49:01.390444 - INFO - /Users/spiceindeedx/Desktop/test_db/test_text1 - NO CHANGE, SKIPPING
+2023-11-24 15:49:01,390 - INFO - All logs for files in directory '/Users/spiceindeedx/Desktop/test_db':
+2023-11-24 15:49:01,390 - INFO - 2023-11-24 15:33:06.684831 - INFO - /Users/spiceindeedx/Desktop/test_db/.DS_Store -> /Users/spiceindeedx/Desktop/backups/.DS_Store - SUCCESSFULLY COPIED
+2023-11-24 15:49:01,390 - INFO - 2023-11-24 15:33:06.686419 - INFO - /Users/spiceindeedx/Desktop/test_db/test_document.docx -> /Users/spiceindeedx/Desktop/backups/test_document.docx - SUCCESSFULLY COPIED
+2023-11-24 15:49:01,390 - INFO - 2023-11-24 15:33:06.687857 - INFO - /Users/spiceindeedx/Desktop/test_db/test_text2 -> /Users/spiceindeedx/Desktop/backups/test_text2 - SUCCESSFULLY COPIED
+2023-11-24 15:49:01,390 - INFO - 2023-11-24 15:33:06.689645 - INFO - /Users/spiceindeedx/Desktop/test_db/test_new_file -> /Users/spiceindeedx/Desktop/backups/test_new_file - SUCCESSFULLY COPIED
+2023-11-24 15:49:01,390 - INFO - 2023-11-24 15:33:06.691137 - INFO - /Users/spiceindeedx/Desktop/test_db/test_document_2.docx -> /Users/spiceindeedx/Desktop/backups/test_document_2.docx - SUCCESSFULLY COPIED
+2023-11-24 15:49:01,390 - INFO - 2023-11-24 15:33:06.692484 - INFO - /Users/spiceindeedx/Desktop/test_db/test_text1 -> /Users/spiceindeedx/Desktop/backups/test_text1 - SUCCESSFULLY COPIED
+2023-11-24 15:49:01,390 - INFO - 2023-11-24 15:49:01.390770 - INFO - Backup job finished
+2023-11-26 18:13:27,855 - INFO - 2023-11-26 18:13:27.854987 - INFO - Backup job started
+2023-11-26 18:13:27,856 - INFO - 2023-11-26 18:13:27.856369 - INFO - /Users/spiceindeedx/Desktop/test_db/.DS_Store - NO CHANGE, SKIPPING
+2023-11-26 18:13:27,857 - INFO - 2023-11-26 18:13:27.857212 - INFO - /Users/spiceindeedx/Desktop/test_db/test_document.docx - NO CHANGE, SKIPPING
+2023-11-26 18:13:27,859 - INFO - 2023-11-26 18:13:27.859910 - INFO - /Users/spiceindeedx/Desktop/test_db/test_text2 - NO CHANGE, SKIPPING
+2023-11-26 18:13:27,861 - INFO - 2023-11-26 18:13:27.861748 - INFO - /Users/spiceindeedx/Desktop/test_db/test_new_file - NO CHANGE, SKIPPING
+2023-11-26 18:13:27,862 - INFO - 2023-11-26 18:13:27.862279 - INFO - /Users/spiceindeedx/Desktop/test_db/test_document_2.docx - NO CHANGE, SKIPPING
+2023-11-26 18:13:27,862 - INFO - 2023-11-26 18:13:27.862710 - INFO - /Users/spiceindeedx/Desktop/test_db/test_text1 - NO CHANGE, SKIPPING
+2023-11-26 18:13:27,862 - INFO - Files in directory '/Users/spiceindeedx/Desktop/test_db': .DS_Store, test_document.docx, test_text2, test_new_file, test_document_2.docx, test_text1
+2023-11-26 18:13:27,862 - INFO - 2023-11-26 18:13:27.862859 - INFO - Backup job finished
+2023-11-26 20:05:01,130 - INFO - 2023-11-26 20:05:01.130094 - INFO - Backup job started
+2023-11-26 20:05:01,131 - INFO - 2023-11-26 20:05:01.131352 - INFO - /Users/spiceindeedx/Desktop/test_db/.DS_Store - NO CHANGE, SKIPPING
+2023-11-26 20:05:01,131 - INFO - 2023-11-26 20:05:01.131732 - INFO - /Users/spiceindeedx/Desktop/test_db/test_document.docx - NO CHANGE, SKIPPING
+2023-11-26 20:05:01,132 - INFO - 2023-11-26 20:05:01.132058 - INFO - /Users/spiceindeedx/Desktop/test_db/test_text2 - NO CHANGE, SKIPPING
+2023-11-26 20:05:01,132 - INFO - 2023-11-26 20:05:01.132377 - INFO - /Users/spiceindeedx/Desktop/test_db/test_new_file - NO CHANGE, SKIPPING
+2023-11-26 20:05:01,132 - INFO - 2023-11-26 20:05:01.132734 - INFO - /Users/spiceindeedx/Desktop/test_db/test_document_2.docx - NO CHANGE, SKIPPING
+2023-11-26 20:05:01,133 - INFO - 2023-11-26 20:05:01.133046 - INFO - /Users/spiceindeedx/Desktop/test_db/test_text1 - NO CHANGE, SKIPPING
+2023-11-26 20:05:01,133 - INFO - Files in directory '/Users/spiceindeedx/Desktop/test_db': .DS_Store, test_document.docx, test_text2, test_new_file, test_document_2.docx, test_text1
+2023-11-26 20:05:01,133 - INFO - 2023-11-26 20:05:01.133180 - INFO - Backup job finished

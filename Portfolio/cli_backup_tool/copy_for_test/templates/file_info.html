@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Information</title>
+</head>
+<body>
+    <h1>File Information</h1>
+    <p><strong>Directory:</strong> {{ file_info[0] }}</p>
+    <p><strong>Filename:</strong> {{ file_info[1] }}</p>
+    <p><strong>Last Backup Datetime:</strong> {{ file_info[2] }}</p>
+    <p><strong>MD5 Hash:</strong> {{ file_info[3] }}</p>
+
+    <h2>Log Entries</h2>
+    <table border="1">
+        <tr>
+            <th>Datetime</th>
+            <th>Severity</th>
+            <th>Message</th>
+        </tr>
+        {% for log in log_entries %}
+            <tr>
+                <td>{{ log[0] }}</td>
+                <td>{{ log[1] }}</td>
+                <td>{{ log[2] }}</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h3>Attached Notes:</h3>
+                    <form method="post" action="{{ url_for('attach_note', file_id=file_info[0], entry_id=log[3]) }}">
+                        <input type="hidden" name="file_id" value="{{ file_info[0] }}">
+                        <input type="hidden" name="entry_id" value="{{ log[0] }}">
+                        <label for="note_text">Attach Note:</label>
+                        <input type="text" name="note_text">
+                        <button type="submit">Attach</button>
+                    </form>
+                    <ul>
+                        {% for note in log_notes[log[3]] %}
+                            <li>{{ note }}</li>
+                        {% endfor %}
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

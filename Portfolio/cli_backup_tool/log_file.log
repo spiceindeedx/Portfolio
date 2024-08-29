@@ -1,0 +1,22 @@
+2023-11-24 15:32:41,060 - INFO - 2023-11-24 15:32:41.060235 - INFO - Backup job started
+2023-11-24 15:32:41,060 - ERROR - 2023-11-24 15:32:41.060959 - ERROR - An error occurred: [Errno 2] No such file or directory: '/Users/spiceindeedx/Desktop/test'
+2023-11-24 15:32:41,061 - ERROR - 2023-11-24 15:32:41.061602 - ERROR - An error occurred: [Errno 2] No such file or directory: '/Users/spiceindeedx/Desktop/test'
+2023-11-24 15:32:41,062 - INFO - 2023-11-24 15:32:41.062286 - INFO - Backup job finished
+2023-11-24 15:33:06,682 - INFO - 2023-11-24 15:33:06.682774 - INFO - Backup job started
+2023-11-24 15:33:06,684 - INFO - 2023-11-24 15:33:06.684063 - INFO - /Users/spiceindeedx/Desktop/test_db/.DS_Store -> /Users/spiceindeedx/Desktop/backups/.DS_Store - SUCCESSFULLY COPIED
+2023-11-24 15:33:06,685 - INFO - 2023-11-24 15:33:06.685847 - INFO - /Users/spiceindeedx/Desktop/test_db/test_document.docx -> /Users/spiceindeedx/Desktop/backups/test_document.docx - SUCCESSFULLY COPIED
+2023-11-24 15:33:06,687 - INFO - 2023-11-24 15:33:06.687259 - INFO - /Users/spiceindeedx/Desktop/test_db/test_text2 -> /Users/spiceindeedx/Desktop/backups/test_text2 - SUCCESSFULLY COPIED
+2023-11-24 15:33:06,688 - INFO - 2023-11-24 15:33:06.688951 - INFO - /Users/spiceindeedx/Desktop/test_db/test_new_file -> /Users/spiceindeedx/Desktop/backups/test_new_file - SUCCESSFULLY COPIED
+2023-11-24 15:33:06,690 - INFO - 2023-11-24 15:33:06.690558 - INFO - /Users/spiceindeedx/Desktop/test_db/test_document_2.docx -> /Users/spiceindeedx/Desktop/backups/test_document_2.docx - SUCCESSFULLY COPIED
+2023-11-24 15:33:06,691 - INFO - 2023-11-24 15:33:06.691928 - INFO - /Users/spiceindeedx/Desktop/test_db/test_text1 -> /Users/spiceindeedx/Desktop/backups/test_text1 - SUCCESSFULLY COPIED
+2023-11-24 15:33:06,693 - INFO - 2023-11-24 15:33:06.693104 - INFO - /Users/spiceindeedx/Desktop/test_db/.DS_Store - NO CHANGE, SKIPPING
+2023-11-24 15:33:06,693 - INFO - 2023-11-24 15:33:06.693361 - INFO - /Users/spiceindeedx/Desktop/test_db/test_document.docx - NO CHANGE, SKIPPING
+2023-11-24 15:33:06,693 - INFO - 2023-11-24 15:33:06.693577 - INFO - /Users/spiceindeedx/Desktop/test_db/test_text2 - NO CHANGE, SKIPPING
+2023-11-24 15:33:06,693 - INFO - 2023-11-24 15:33:06.693791 - INFO - /Users/spiceindeedx/Desktop/test_db/test_new_file - NO CHANGE, SKIPPING
+2023-11-24 15:33:06,694 - INFO - 2023-11-24 15:33:06.694034 - INFO - /Users/spiceindeedx/Desktop/test_db/test_document_2.docx - NO CHANGE, SKIPPING
+2023-11-24 15:33:06,694 - INFO - 2023-11-24 15:33:06.694247 - INFO - /Users/spiceindeedx/Desktop/test_db/test_text1 - NO CHANGE, SKIPPING
+2023-11-24 15:33:06,694 - INFO - 2023-11-24 15:33:06.694276 - INFO - Backup job finished
+2023-11-24 15:36:06,173 - INFO - 2023-11-24 15:36:06.173188 - INFO - Backup job started
+2023-11-24 15:36:06,174 - ERROR - 2023-11-24 15:36:06.174160 - ERROR - An error occurred: [Errno 2] No such file or directory: '/Users/spiceindeedx/Desktop/test'
+2023-11-24 15:36:06,174 - ERROR - 2023-11-24 15:36:06.174817 - ERROR - An error occurred: [Errno 2] No such file or directory: '/Users/spiceindeedx/Desktop/test'
+2023-11-24 15:36:06,175 - INFO - 2023-11-24 15:36:06.175441 - INFO - Backup job finished

@@ -1,0 +1,144 @@
+2024-01-20 09:52:21,518 - ERROR - 2024-01-20 09:52:21.518748 - ERROR - An error occurred: Error binding parameter 0 - probably unsupported type.
+2024-01-20 09:52:21,518 - ERROR - 2024-01-20 09:52:21.518748 - ERROR - An error occurred: Error binding parameter 0 - probably unsupported type.
+2024-01-20 09:52:21,529 - INFO - Files in directory 'test_directory': test_file.txt
+2024-01-20 09:52:21,529 - INFO - Files in directory 'test_directory': test_file.txt
+2024-01-20 09:52:21,529 - INFO - Files in directory 'test_directory': test_file.txt
+2024-01-20 09:52:21,539 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:52:21,539 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:52:21,539 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:52:21,539 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:52:21,539 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:52:21,543 - INFO - Backup Job Information:
+2024-01-20 09:52:21,543 - INFO - Backup Job Information:
+2024-01-20 09:52:21,543 - INFO - Backup Job Information:
+2024-01-20 09:52:21,543 - INFO - Backup Job Information:
+2024-01-20 09:52:21,543 - INFO - Backup Job Information:
+2024-01-20 09:52:21,543 - INFO - Backup Job Information:
+2024-01-20 09:52:21,543 - INFO - Job ID: 1
+2024-01-20 09:52:21,543 - INFO - Job ID: 1
+2024-01-20 09:52:21,543 - INFO - Job ID: 1
+2024-01-20 09:52:21,543 - INFO - Job ID: 1
+2024-01-20 09:52:21,543 - INFO - Job ID: 1
+2024-01-20 09:52:21,543 - INFO - Job ID: 1
+2024-01-20 09:52:21,543 - INFO - Commandline: test_commandline
+2024-01-20 09:52:21,543 - INFO - Commandline: test_commandline
+2024-01-20 09:52:21,543 - INFO - Commandline: test_commandline
+2024-01-20 09:52:21,543 - INFO - Commandline: test_commandline
+2024-01-20 09:52:21,543 - INFO - Commandline: test_commandline
+2024-01-20 09:52:21,543 - INFO - Commandline: test_commandline
+2024-01-20 09:52:21,543 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:52:21,543 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:52:21,543 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:52:21,543 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:52:21,543 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:52:21,543 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:52:21,548 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:52:21,548 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:52:21,548 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:52:21,548 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:52:21,548 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:52:21,548 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:52:21,548 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:52:21,548 - INFO - 2024-01-19 09:52:21 - INFO - Test log message
+2024-01-20 09:52:21,548 - INFO - 2024-01-19 09:52:21 - INFO - Test log message
+2024-01-20 09:52:21,548 - INFO - 2024-01-19 09:52:21 - INFO - Test log message
+2024-01-20 09:52:21,548 - INFO - 2024-01-19 09:52:21 - INFO - Test log message
+2024-01-20 09:52:21,548 - INFO - 2024-01-19 09:52:21 - INFO - Test log message
+2024-01-20 09:52:21,548 - INFO - 2024-01-19 09:52:21 - INFO - Test log message
+2024-01-20 09:52:21,548 - INFO - 2024-01-19 09:52:21 - INFO - Test log message
+2024-01-20 09:56:49,334 - ERROR - 2024-01-20 09:56:49.334523 - ERROR - An error occurred: Error binding parameter 0 - probably unsupported type.
+2024-01-20 09:56:49,334 - ERROR - 2024-01-20 09:56:49.334523 - ERROR - An error occurred: Error binding parameter 0 - probably unsupported type.
+2024-01-20 09:56:49,336 - INFO - Files in directory 'test_directory': test_file.txt
+2024-01-20 09:56:49,336 - INFO - Files in directory 'test_directory': test_file.txt
+2024-01-20 09:56:49,336 - INFO - Files in directory 'test_directory': test_file.txt
+2024-01-20 09:56:49,346 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:56:49,346 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:56:49,346 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:56:49,346 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:56:49,346 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:56:49,350 - INFO - Backup Job Information:
+2024-01-20 09:56:49,350 - INFO - Backup Job Information:
+2024-01-20 09:56:49,350 - INFO - Backup Job Information:
+2024-01-20 09:56:49,350 - INFO - Backup Job Information:
+2024-01-20 09:56:49,350 - INFO - Backup Job Information:
+2024-01-20 09:56:49,350 - INFO - Backup Job Information:
+2024-01-20 09:56:49,350 - INFO - Job ID: 1
+2024-01-20 09:56:49,350 - INFO - Job ID: 1
+2024-01-20 09:56:49,350 - INFO - Job ID: 1
+2024-01-20 09:56:49,350 - INFO - Job ID: 1
+2024-01-20 09:56:49,350 - INFO - Job ID: 1
+2024-01-20 09:56:49,350 - INFO - Job ID: 1
+2024-01-20 09:56:49,350 - INFO - Commandline: test_commandline
+2024-01-20 09:56:49,350 - INFO - Commandline: test_commandline
+2024-01-20 09:56:49,350 - INFO - Commandline: test_commandline
+2024-01-20 09:56:49,350 - INFO - Commandline: test_commandline
+2024-01-20 09:56:49,350 - INFO - Commandline: test_commandline
+2024-01-20 09:56:49,350 - INFO - Commandline: test_commandline
+2024-01-20 09:56:49,350 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:56:49,350 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:56:49,350 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:56:49,350 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:56:49,350 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:56:49,350 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:56:49,355 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:56:49,355 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:56:49,355 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:56:49,355 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:56:49,355 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:56:49,355 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:56:49,355 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:56:49,355 - INFO - 2024-01-19 09:56:49 - INFO - Test log message
+2024-01-20 09:56:49,355 - INFO - 2024-01-19 09:56:49 - INFO - Test log message
+2024-01-20 09:56:49,355 - INFO - 2024-01-19 09:56:49 - INFO - Test log message
+2024-01-20 09:56:49,355 - INFO - 2024-01-19 09:56:49 - INFO - Test log message
+2024-01-20 09:56:49,355 - INFO - 2024-01-19 09:56:49 - INFO - Test log message
+2024-01-20 09:56:49,355 - INFO - 2024-01-19 09:56:49 - INFO - Test log message
+2024-01-20 09:56:49,355 - INFO - 2024-01-19 09:56:49 - INFO - Test log message
+2024-01-20 09:59:32,059 - ERROR - 2024-01-20 09:59:32.059348 - ERROR - An error occurred: Error binding parameter 0 - probably unsupported type.
+2024-01-20 09:59:32,059 - ERROR - 2024-01-20 09:59:32.059348 - ERROR - An error occurred: Error binding parameter 0 - probably unsupported type.
+2024-01-20 09:59:32,063 - INFO - Files in directory 'test_directory': test_file.txt
+2024-01-20 09:59:32,063 - INFO - Files in directory 'test_directory': test_file.txt
+2024-01-20 09:59:32,063 - INFO - Files in directory 'test_directory': test_file.txt
+2024-01-20 09:59:32,071 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:59:32,071 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:59:32,071 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:59:32,071 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:59:32,071 - INFO - No logs found for files in directory 'test_directory'
+2024-01-20 09:59:32,075 - INFO - Backup Job Information:
+2024-01-20 09:59:32,075 - INFO - Backup Job Information:
+2024-01-20 09:59:32,075 - INFO - Backup Job Information:
+2024-01-20 09:59:32,075 - INFO - Backup Job Information:
+2024-01-20 09:59:32,075 - INFO - Backup Job Information:
+2024-01-20 09:59:32,075 - INFO - Backup Job Information:
+2024-01-20 09:59:32,076 - INFO - Job ID: 1
+2024-01-20 09:59:32,076 - INFO - Job ID: 1
+2024-01-20 09:59:32,076 - INFO - Job ID: 1
+2024-01-20 09:59:32,076 - INFO - Job ID: 1
+2024-01-20 09:59:32,076 - INFO - Job ID: 1
+2024-01-20 09:59:32,076 - INFO - Job ID: 1
+2024-01-20 09:59:32,076 - INFO - Commandline: test_commandline
+2024-01-20 09:59:32,076 - INFO - Commandline: test_commandline
+2024-01-20 09:59:32,076 - INFO - Commandline: test_commandline
+2024-01-20 09:59:32,076 - INFO - Commandline: test_commandline
+2024-01-20 09:59:32,076 - INFO - Commandline: test_commandline
+2024-01-20 09:59:32,076 - INFO - Commandline: test_commandline
+2024-01-20 09:59:32,076 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:59:32,076 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:59:32,076 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:59:32,076 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:59:32,076 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:59:32,076 - INFO - Execution Datetime: 2022-01-01 12:00:00
+2024-01-20 09:59:32,079 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:59:32,079 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:59:32,079 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:59:32,079 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:59:32,079 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:59:32,079 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:59:32,079 - INFO - Logs for Backup Job ID 1:
+2024-01-20 09:59:32,080 - INFO - 2024-01-19 09:59:32 - INFO - Test log message
+2024-01-20 09:59:32,080 - INFO - 2024-01-19 09:59:32 - INFO - Test log message
+2024-01-20 09:59:32,080 - INFO - 2024-01-19 09:59:32 - INFO - Test log message
+2024-01-20 09:59:32,080 - INFO - 2024-01-19 09:59:32 - INFO - Test log message
+2024-01-20 09:59:32,080 - INFO - 2024-01-19 09:59:32 - INFO - Test log message
+2024-01-20 09:59:32,080 - INFO - 2024-01-19 09:59:32 - INFO - Test log message
+2024-01-20 09:59:32,080 - INFO - 2024-01-19 09:59:32 - INFO - Test log message
