@@ -1,10 +1,3 @@
-"""
-Backup.py: A script for performing file backups and logging as well
-
-Includes functions such as setting up logging, creating and querying a SQLite database, displaying information from it and making backups itself
-
-"""
-
 import os
 import shutil
 import argparse
@@ -14,22 +7,9 @@ import sqlite3
 import hashlib
 import time
 import sys
-from typing import Optional, Tuple, Union
 
-def setup_logger(log_filename: str, verbose: bool, db_name: str) -> logging.Logger:
-    """Logger
-
-    Set up a logger for the backup tool
-
-    Args:
-        log_filename (str): The name of the log file.
-        verbose (bool): Flag to enable verbose logging.
-        db_name (str): Name of the SQLite database.
-
-    Returns:
-        logging.Logger: Configured logger object
-    """
-
+"""Logger"""
+def setup_logger(log_filename, verbose, db_name):
     logger = logging.getLogger('backup_tool')
     logger.setLevel(logging.DEBUG)
 
@@ -50,17 +30,7 @@ def setup_logger(log_filename: str, verbose: bool, db_name: str) -> logging.Logg
     return logger
 
 
-def get_md5_hash(file_path: str) -> Optional[str]:
-    """
-    Calculate MD5 hash for a given file.
-
-    Args:
-        file_path (str): Path to the file.
-
-    Returns:
-        str or None: MD5 hash of the file, or None if the file does not exist.
-    """
-
+def get_md5_hash(file_path):
     if os.path.isfile(file_path):
         file_content = open(file_path, "rb").read()
         hash_value = hashlib.md5(file_content).hexdigest()
@@ -68,14 +38,8 @@ def get_md5_hash(file_path: str) -> Optional[str]:
     else:
         return None
 
-
-def create_database(db_name: str) -> None:
-    """
-    Create a SQLite database with necessary tables for file backup.
-
-    Args:
-        db_name (str): Name of the SQLite database.
-    """
+"""Database"""
+def create_database(db_name):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
     cursor.execute('''
@@ -90,27 +54,7 @@ def create_database(db_name: str) -> None:
     conn.commit()
     conn.close()
 
-def insert_file_info(
-    db_name: str,
-    directory: str,
-    filename: str,
-    last_backup_datetime: str,
-    md5hash: str
-) -> None:
-    """
-    Insert file information into the 'file' table in the SQLite database.
-
-    Args:
-        db_name (str): Name of the SQLite database.
-        directory (str): Directory of the file.
-        filename (str): Name of the file.
-        last_backup_datetime (str): Last backup datetime in string format.
-        md5hash (str): MD5 hash of the file content.
-
-    Returns:
-        None
-    """
-
+def insert_file_info(db_name, directory, filename, last_backup_datetime, md5hash):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
     cursor.execute('''
@@ -121,17 +65,7 @@ def insert_file_info(
     conn.close()
 
 
-def create_notes_table(db_name: str) -> None:
-    """
-    Create the 'Notes' table in the SQLite database if it does not exist.
-
-    Args:
-        db_name (str): Name of the SQLite database.
-
-    Returns:
-        None
-    """
-
+def create_notes_table(db_name):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
     cursor.execute('''
@@ -146,17 +80,7 @@ def create_notes_table(db_name: str) -> None:
     conn.close()
 
 
-def create_logentry_table(db_name: str) -> None:
-    """
-    Create the 'Logentry' table in the SQLite database if it does not exist.
-
-    Args:
-        db_name (str): Name of the SQLite database.
-
-    Returns:
-        None
-    """
-
+def create_logentry_table(db_name):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
     cursor.execute('''
@@ -175,29 +99,7 @@ def create_logentry_table(db_name: str) -> None:
     conn.close()
 
 
-def insert_log_entry(
-    db_name: str,
-    entry_datetime: str,
-    severity_level: str,
-    message: str,
-    file_id: int = None,
-    job_id: int = None
-) -> int:
-    """
-    Insert a log entry into the 'Logentry' table in the SQLite database.
-
-    Args:
-        db_name (str): Name of the SQLite database.
-        entry_datetime (str): Datetime of the log entry.
-        severity_level (str): Severity level of the log entry.
-        message (str): Log message.
-        file_id (int, optional): ID of the associated file.
-        job_id (int, optional): ID of the associated backup job.
-
-    Returns:
-        int: ID of the inserted log entry.
-    """
-
+def insert_log_entry(db_name, entry_datetime, severity_level, message, file_id=None, job_id=None):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
     cursor.execute('''
@@ -210,17 +112,7 @@ def insert_log_entry(
     return entry_id
 
 
-def create_backup_job_table(db_name: str) -> None:
-    """
-    Create the 'BackupJob' table in the SQLite database if it does not exist.
-
-    Args:
-        db_name (str): Name of the SQLite database.
-
-    Returns:
-        None
-    """
-
+def create_backup_job_table(db_name):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
     cursor.execute('''
@@ -233,24 +125,7 @@ def create_backup_job_table(db_name: str) -> None:
     conn.commit()
     conn.close()
 
-
-def insert_backup_job(
-    db_name: str,
-    commandline: str,
-    execution_datetime: str
-) -> int:
-    """
-    Insert a backup job entry into the 'BackupJob' table in the SQLite database.
-
-    Args:
-        db_name (str): Name of the SQLite database.
-        commandline (str): Command line used for the backup job.
-        execution_datetime (str): Datetime of the backup job execution.
-
-    Returns:
-        int: ID of the inserted backup job entry.
-    """
-
+def insert_backup_job(db_name, commandline, execution_datetime):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
     cursor.execute('''
@@ -262,28 +137,8 @@ def insert_backup_job(
     conn.close()
     return job_id
 
-
 """Making backup"""
-def backup_files(
-    source_dir: str,
-    destination_dir: str,
-    db_name: str,
-    logger: logging.Logger,
-    file_id: Optional[int] = None,
-    job_id: Optional[int] = None
-) -> None:
-    """
-    Backup files from the source directory to the destination directory.
-
-    Args:
-        source_dir (str): Source directory path.
-        destination_dir (str): Destination directory path.
-        db_name (str): Name of the SQLite database.
-        logger (logging.Logger): Logger object for logging.
-        file_id (int, optional): File ID for database reference.
-        job_id (int, optional): Backup job ID for database reference.
-    """
-
+def backup_files(source_dir, destination_dir, db_name, logger, file_id=None, job_id=None):
     try:
         if not os.path.exists(destination_dir):
             os.makedirs(destination_dir)
@@ -337,18 +192,7 @@ def backup_files(
         insert_log_entry(db_name, datetime.now(), "ERROR", error_message, file_id=file_id, job_id=job_id)
 
 """Query/Display information"""
-def query_files(db_name: str, directory: str, logger: logging.Logger) -> None:
-    """
-    Query files in a specific directory from the 'file' table in the SQLite database.
-
-    Args:
-        db_name (str): Name of the SQLite database.
-        directory (str): Directory to query files for.
-        logger (logging.Logger): Logger object for logging.
-
-    Returns:
-        None
-    """
+def query_files(db_name, directory, logger):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
     cursor.execute('SELECT Filename FROM file WHERE Directory = ?', (directory,))
@@ -360,20 +204,7 @@ def query_files(db_name: str, directory: str, logger: logging.Logger) -> None:
     else:
         logger.info(f"No files found in directory '{directory}'")
 
-def query_logs(db_name: str, directory: str, filename: str, date: str, logger: logging.Logger) -> None:
-    """
-    Query logs for a specific file in a directory from the 'Logentry' table in the SQLite database.
-
-    Args:
-        db_name (str): Name of the SQLite database.
-        directory (str): Directory of the file.
-        filename (str): Name of the file.
-        date (str): Date for log filtering (optional).
-        logger (logging.Logger): Logger object for logging.
-
-    Returns:
-        None
-    """
+def query_logs(db_name, directory, filename, date, logger):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
     
@@ -392,19 +223,10 @@ def query_logs(db_name: str, directory: str, filename: str, date: str, logger: l
         logger.info(f"Logs for file '{filename}' in directory '{directory}':")
         for log in logs:
             logger.info(f"{log[0]} - {log[1]} - {log[2]}")
-
+    else:
+        logger.info(f"No logs found for file '{filename}' in directory '{directory}'")
 
 def query_all_logs(db_name, directory, date, logger):
-    """
-    Query all logs for files in a specific directory.
-
-    Args:
-        db_name (str): Name of the SQLite database.
-        directory (str): Directory to query logs for.
-        date (str): Date for log filtering (optional).
-        logger (logging.Logger): Logger object for logging.
-    """
-
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
     
@@ -427,18 +249,7 @@ def query_all_logs(db_name, directory, date, logger):
         logger.info(f"No logs found for files in directory '{directory}'")
     
 """Display"""
-def display_backup_job_info(db_name: str, job_id: int, logger: logging.Logger) -> None:
-    """
-    Display information for a specific backup job from the 'BackupJob' table in the SQLite database.
-
-    Args:
-        db_name (str): Name of the SQLite database.
-        job_id (int): ID of the backup job to display information for.
-        logger (logging.Logger): Logger object for logging.
-
-    Returns:
-        None
-    """
+def display_backup_job_info(db_name, job_id, logger):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
     cursor.execute('SELECT * FROM BackupJob WHERE Job_id = ?', (job_id,))
@@ -453,18 +264,7 @@ def display_backup_job_info(db_name: str, job_id: int, logger: logging.Logger) -
     else:
         logger.info(f"No information found for Job ID: {job_id}")
 
-def display_job_logs(db_name: str, job_id: int, logger: logging.Logger) -> None:
-    """
-    Display log entries for a specific backup job from the 'Logentry' table in the SQLite database.
-
-    Args:
-        db_name (str): Name of the SQLite database.
-        job_id (int): ID of the backup job to display logs for.
-        logger (logging.Logger): Logger object for logging.
-
-    Returns:
-        None
-    """
+def display_job_logs(db_name, job_id, logger):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
     cursor.execute('''
@@ -482,14 +282,8 @@ def display_job_logs(db_name: str, job_id: int, logger: logging.Logger) -> None:
     else:
         logger.info(f"No logs found for Backup Job ID: {job_id}")
 
-
 """CLI + Execution"""
 def main():
-    """
-    Main function for executing the backup tool from the command line.
-    Parses command line arguments and triggers backup or query operations.
-    """
-
     parser = argparse.ArgumentParser(description="Backup tool with database")
     parser.add_argument("-s", "--source", required=True, help="Source directory")
     parser.add_argument("-d", "--destination", required=True, help="Destination directory")

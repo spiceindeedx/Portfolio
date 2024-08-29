@@ -1,0 +1,108 @@
+openapi: 3.0.0
+info:
+  title: Centralized Log API
+  version: 1.0.0
+paths:
+  /logs:
+    get:
+      summary: Get all logs
+      responses:
+        '200':
+          description: Successful response
+    post:
+      summary: Add a log entry
+      requestBody:
+        required: true
+        content:
+          application/json:
+            example:
+              system_id: 1
+              log_date: "2022-01-01"
+              log_level: "INFO"
+              message: "Example log message"
+              directory: "/var/log/example.log"
+      responses:
+        '201':
+          description: Log entry added successfully
+
+  /logs/system/{system}:
+    get:
+      summary: Get logs by system
+      parameters:
+        - name: system
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+
+  /logs/date/{date}:
+    get:
+      summary: Get logs by date
+      parameters:
+        - name: date
+          in: path
+          required: true
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: Successful response
+        '400':
+          description: Invalid date format. Use YYYY-MM-DD
+
+  /logs/delete-before/{date}:
+    delete:
+      summary: Delete logs before a specific date
+      parameters:
+        - name: date
+          in: path
+          required: true
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: Logs deleted successfully
+        '400':
+          description: Invalid date format. Use YYYY-MM-DD
+
+  /logs/update/{log_id}:
+    put:
+      summary: Update a log entry
+      parameters:
+        - name: log_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            example:
+              log_level: "DEBUG"
+              message: "Updated log message"
+              directory: "/var/log/updated.log"
+      responses:
+        '200':
+          description: Log entry updated successfully
+
+  /systems:
+    post:
+      summary: Add a system
+      requestBody:
+        required: true
+        content:
+          application/json:
+            example:
+              name: "example_system"
+              ip_address: "192.168.1.1"
+      responses:
+        '201':
+          description: System added successfully
+        '400':
+          description: System name is required
